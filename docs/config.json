@@ -1,6 +1,6 @@
 {
-    "title": "UDOO X86 Docs",
-    "tagline": "UDOO X86 Documentation",
+    "title": "UDOO X86 II Docs",
+    "tagline": "UDOO X86 II Documentation",
     "author": "UDOO Team",
     "image": "../img/logo_docs.png",
     "ignore": {
@@ -13,13 +13,13 @@
 	    "breadcrumbs": false,
 	    "date_modified": false,
 	    "float": false,
-	    "repo": "UDOOboard/X86-Docs",
+	    "repo": "UDOOboard/X86II-Docs",
 	    "links": {
 	        "Home": "https://www.udoo.org",
 	        "Downloads": "https://www.udoo.org/other-resources/",
 	        "Tutorials": "https://www.udoo.org/tutorial",
 	        "Forum": "https://www.udoo.org/forum",
-          "Github Docs": "https://github.com/UDOOboard/X86-Docs"
+          "Github Docs": "https://github.com/UDOOboard/X86II-Docs"
 	    }
     }
 }
