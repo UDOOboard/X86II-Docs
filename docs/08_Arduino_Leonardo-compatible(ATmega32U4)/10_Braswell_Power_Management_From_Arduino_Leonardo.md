@@ -29,10 +29,6 @@ The option you can choose for the **Curie Power Management** are:
 
 ## Examples
 
-### BLE example
-
-In this blog post [UDOO X86 Power On / Off via BLE on Arduino Leonardo](http://blog.lucabelluccini.com/2017/05/udoo-x86-power-on-off-via-blle-on.html) you can find an example of an Arduino sketch that could be used to trigger a power signal from the Arduino Leonardo (ATmega32U4) via BLE. You don't need to connect other hardware and you can use your smartphone to trigger the power signal to the Braswell processor wirelessly.
-
 ### Button example
 
 Following an example of an Arduino sketch that could be used to trigger a power signal from the Arduino Leonardo (ATmega32U4) when a button is pressed:
