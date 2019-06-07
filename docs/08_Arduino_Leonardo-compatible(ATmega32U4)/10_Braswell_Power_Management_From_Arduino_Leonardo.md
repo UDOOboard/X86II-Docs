@@ -1,9 +1,9 @@
-The Arduino 101 side (Intel® Curie™) of the UDOO X86 can take care of the Braswell power management.  
-It can act as the Power Button(PWR) of the board connected directly to the Braswell processor. This means that an Arduino 101 sketch, that it's always running while the board is powered up, can for example turn on/off the Braswell main processor or wake the OS from the suspend state.
+The Arduino Leonardo side (ATmega32U4) of the UDOO X86 can take care of the Braswell power management.  
+It can act as the Power Button(PWR) of the board connected directly to the Braswell processor. This means that an Arduino Leonardo sketch, that it's always running while the board is powered up, can for example turn on/off the Braswell main processor or wake the OS from the suspend state.
 
-The Arduino 101 on board can wake up the Braswell processor depending on various triggers. For example, it can wake up the Braswell prcessor if the temperature, registered by a connected temperature sensor, increases over a certain threshold. Other examples of triggers may be a BLE signal or a movement tracked by the 6-axis motion sensor on board, defining features of Arduino 101. By exploiting the Arduino capabilities, you can set up the trigger you want to get the behaviour you expect from the system.
+The Arduino Leonardo on board can wake up the Braswell processor depending on various triggers. For example, it can wake up the Braswell prcessor if the temperature, registered by a connected temperature sensor, increases over a certain threshold. By exploiting the Arduino capabilities, you can set up the trigger you want to get the behaviour you expect from the system.
 
-The Arduino 101 (Intel® Curie™) can trigger a power signal of the Braswell processor by producing a sequence of **5 low pulses in 100ms** in the **Arduino Pin 9** (IO9/PWM3 signal in the schematics). Technically speaking the pulses are catched by a SMT32 microcontroller onboard(STM32F100R4H6) and propagated to the Braswell to wake it up or shut it down.
+The Arduino Leonardo (ATmega32U4) can trigger a power signal of the Braswell processor by producing a sequence of **5 low pulses in 100ms** in the **Arduino Pin 9** (IO9/PWM3 signal in the schematics). Technically speaking the pulses are catched by a SMT32 microcontroller onboard(STM32F100R4H6) and propagated to the Braswell to wake it up or shut it down.
 
 You need to **enable** this feature of the UDOO X86 board in the **UEFI Setup Utility(SCU)**.  
 
@@ -31,11 +31,11 @@ The option you can choose for the **Curie Power Management** are:
 
 ### BLE example
 
-In this blog post [UDOO X86 Power On / Off via BLE on Arduino 101](http://blog.lucabelluccini.com/2017/05/udoo-x86-power-on-off-via-blle-on.html) you can find an example of an Arduino sketch that could be used to trigger a power signal from the Arduino 101 (Intel® Curie™) via BLE. You don't need to connect other hardware and you can use your smartphone to trigger the power signal to the Braswell processor wirelessly.
+In this blog post [UDOO X86 Power On / Off via BLE on Arduino Leonardo](http://blog.lucabelluccini.com/2017/05/udoo-x86-power-on-off-via-blle-on.html) you can find an example of an Arduino sketch that could be used to trigger a power signal from the Arduino Leonardo (ATmega32U4) via BLE. You don't need to connect other hardware and you can use your smartphone to trigger the power signal to the Braswell processor wirelessly.
 
 ### Button example
 
-Following an example of an Arduino sketch that could be used to trigger a power signal from the Arduino 101 (Intel® Curie™) when a button is pressed:
+Following an example of an Arduino sketch that could be used to trigger a power signal from the Arduino Leonardo (ATmega32U4) when a button is pressed:
 
 #### Circuit design
 
