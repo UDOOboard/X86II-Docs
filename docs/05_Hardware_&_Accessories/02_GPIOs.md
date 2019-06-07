@@ -23,7 +23,7 @@ In the following image you can see in grey labels the 20 GPIOs manageable from t
 
 <a href="../img/x86_pinout_arduino.png" target="\_blank"><img style="width:600px; " src="../img/x86_pinout_arduino.png"></a>
 
-Refer to the [Arduino Leonardo (ATmega32U4)](!/Arduino_101_(Intel_Curie)/Overview) section to manage the Arduino GPIOs. You will be able to use the internal row pinout exactly like you do with an Arduino Leonardo.
+Refer to the [Arduino Leonardo (ATmega32U4)](!/Arduino_Leonardo-compatible(ATmega32U4)/Overview) section to manage the Arduino GPIOs. You will be able to use the internal row pinout exactly like you do with an Arduino Leonardo.
 
   </div>
   <div role="tabpanel" class="tab-pane" id="gpio-braswell">
