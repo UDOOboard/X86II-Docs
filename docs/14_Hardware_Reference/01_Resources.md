@@ -8,7 +8,7 @@ For a complete explanation of the UDOO X86 hardware you can download the
 Here you can find the schematics files of the UDOO X86:
 * [Schematics](http://download.udoo.org/files/UDOO_X86/schematics/UDOOX86II_revI_bottom_P0B02I21.pdf)
 * [Top](http://download.udoo.org/files/UDOO_X86/schematics/UDOOX86II_revI_top_P0B02I11.pdf)
-* [Bottom](http://download.udoo.org/files/UDOO_X86/schematics/UDOOX86_revH_bottom_P0B02H20.pdf)
+* [Bottom](http://download.udoo.org/files/UDOO_X86/schematics/UDOOX86II_revI_bottom_P0B02I21.pdf)
 
 ### Bill of Material (BOM)
 
