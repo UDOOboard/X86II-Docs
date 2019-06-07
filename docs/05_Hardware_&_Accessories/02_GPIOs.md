@@ -21,7 +21,7 @@ Select the tab accordingly to which Processing Unit you want use to manage the r
 
 In the following image you can see in grey labels the 20 GPIOs manageable from the main ATmega32U4(Arduino Leonardo-compatible embedded).
 
-<a href="../img/x86_pinout_arduino.png" target="\_blank"><img style="width:600px; " src="../img/x86_pinout_arduino.png"></a>
+<a href="../img/x86ii_pinout_arduino.png" target="\_blank"><img style="width:600px; " src="../img/x86ii_pinout_arduino.png"></a>
 
 Refer to the [Arduino Leonardo (ATmega32U4)](!/Arduino_Leonardo-compatible(ATmega32U4)/Overview) section to manage the Arduino GPIOs. You will be able to use the internal row pinout exactly like you do with an Arduino Leonardo.
 
