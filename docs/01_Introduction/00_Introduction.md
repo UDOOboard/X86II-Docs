@@ -1,13 +1,13 @@
 # UDOO X86
-**UDOO X86** is the New PC: the most powerful maker board ever and an Arduino&trade; 101-compatible platform, all embedded on the same board.
+**UDOO X86** is the New PC: the most powerful maker board ever and an Arduino&trade; Leonardo-compatible platform, all embedded on the same board.
 
-On UDOO X86 you can run all the software available for the PC world, from gaming to video streaming, from graphical editors to professional development platforms, plus all the software for the Arduino&trade; 101 world, including all the sketches, libraries and the official Arduino&trade; 101 IDE.
+On UDOO X86 you can run all the software available for the PC world, from gaming to video streaming, from graphical editors to professional development platforms, plus all the software for the Arduino&trade; Leonardo world, including all the sketches, libraries and the official Arduino&trade; Leonardo IDE.
 
 UDOO X86 embeds two processors made by Intel&reg;:
-* a Quad Core 64-bit new-generation x86 Braswell 14nm processors, designed for the PC domain (The N-Series Intel® Pentium® / Celeron® and x5-Series Atom family of System-on-Chips (SoCs) formerly coded as Braswell is a series of Quad Core SoCs with 64-bit instruction set and very low TDP.)
-* the Intel&reg; Curie&trade; module, the same of Arduino&trade; 101, designed for wearables
+* a Quad Core 64-bit new-generation x86 [**Braswell**](https://ark.intel.com/compare/91831,91830) 14nm processors, designed for the PC domain (The N-Series Intel® Pentium® / Celeron® and x5-Series Atom family of System-on-Chips (SoCs) formerly coded as Braswell is a series of Quad Core SoCs with 64-bit instruction set and very low TDP.)
+* the [**Microchip ATmega32U4**](https://www.microchip.com/wwwproducts/en/ATmega32u4) 8-bit AVR microcontroller, the same of *Arduino&reg; Leonardo*.
 
-While the X86 Braswell processor can run all the Windows, Linux, Android X86 64bit Distros you want to use as desktop PC, the Intel&reg; Curie&trade; allows easy access to a Arduino&trade; 101 environment.
+While the X86 Braswell processor can run all the Windows, Linux, Android X86 64bit Distros you want to use as desktop PC, the ATmega32U4 allows easy access to a Arduino&trade; Leonardo environment.
 
 Download the [**User Manual**](http://download.udoo.org/files/UDOO_X86/Doc/UDOO_X86_MANUAL.pdf) to have more complete explanation of the UDOO X86 hardware.  
 
@@ -17,7 +17,7 @@ Visit the [**Get Started X86**](https://www.udoo.org/get-started-x86/) section o
 
 <span class="label label-warning">Heads up!</span> In order to prevent damages to your board, remember to:
 
-* Never provide more than 5V in input to the GPIOs of the Arduino 101(Intel&reg; Curie&trade;), and never provide more than 1.8V in input to the GPIOs of the Braswell processor.
+* Never provide more than 5V in input to the GPIOs of the Arduino Leonardo-compatible(Atmel&reg; ATmega32U4), and never provide more than 1.8V in input to the GPIOs of the Braswell processor.
 * Never keep the board in touch with metal objects or surfaces while it is powered up
 * Power the board with a stabilized power supply (DC-jack with a standard 5.5mm/2.1mm barrel jack, internal positive, Voltage 12V ± 5%, at least 3A).
 * Do not use a *NON*-standard USB 3.0 peripheral. If you use a non-standard USB 3.0 peripheral with an external power plug, this could send back the power source to the UDOO X86 board with the risk of damage.
@@ -42,7 +42,7 @@ UDOO X86 retail line up consists of [two models](!Hardware_Reference/Board_versi
 * RAM:
   * 8 GB DDR3L Dual Channel (ULTRA version)
   * 4 GB DDR3L Dual Channel (ADVANCED PLUS)
-* Intel&reg; Curie&trade; module (Quark SE core 32 MHz plus 32-bit ARC core 32 MHz) features Bluetooth LE, 6-axis accelerometer/gyro
+* Microchip ATmega32U4 8-bit AVR RISC-based microcontroller.
 * Video interfaces:
   * 1x HDMI 1.4 (CEC)
   * 2x Mini DisplayPort ++ (mDP++)
@@ -68,7 +68,7 @@ UDOO X86 retail line up consists of [two models](!Hardware_Reference/Board_versi
 * RTC Battery Connector + RTC Coin Battery
 * Bi-color Power Status LED
 * 1x Sensor Snap-In I2C connector (UDOO Bricks)
-* Arduino&trade; 101-Compatible through the standard Arduino&trade; Pins layout and compatible with Arduino&trade; shields.
+* Arduino&trade; Leonardo-Compatible through the standard Arduino&trade; Pins layout and compatible with Arduino&trade; shields.
 
 &#42;Available on Pin Header
 &#42;&#42;Not compatible with NVMe modules

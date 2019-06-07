@@ -13,7 +13,7 @@ This file describes how to compile and run the Java examples contained in this f
 
     cd serial_libraries_examples/java/
 
-3 - Check if the Arduino 101 is assigned to the default port `/dev/ttyACM0`, otherwise modify this string in the .java sources with correct tty and save:
+3 - Check if the Arduino Leonardo is assigned to the default port `/dev/ttyACM0`, otherwise modify this string in the .java sources with correct tty and save:
 
     UDOOserial.connect("/dev/ttyACM0");
 

@@ -30,18 +30,15 @@
 | <img src="../img/icons/os.png" height="20px" width="20px">              | Operating System | Windows 10, 8.1, 7 64bit Any Linux Distribution for X86 64bit platform  Android X86                           |
 | <img src="../img/icons/dimensions.png" height="20px" width="20px">      | Board Dimensions | 120mm x85mm (4.72" x 3.35")                                                                                   |
 
-## INTEL CURIE MICROCONTROLLER
+## ATMEL&reg; ATMEGA32U4 MICROCONTROLLER
 
 |                                                                          |                  |                                                                  |
 |--------------------------------------------------------------------------|------------------|------------------------------------------------------------------|
-| <img src="../img/icons/processor.png" height="20px" width="20px">        | Processor        | Intel Quark SE core 32 MHz plus 32-bit ARC core 32 MHz           |
-| <img src="../img/icons/networking.png" height="20px" width="20px">       | Networking       | Bluetooth Low Energy                                             |
+| <img src="../img/icons/processor.png" height="20px" width="20px">        | Microcontroller  | Atmel&reg; ATmega32U4 module                                     |
 | <img src="../img/icons/other.png" height="20px" width="20px">            | Other Interfaces | SPI Flash JTAG connector                                         |
-| <img src="../img/icons/arduino.png" height="20px" width="20px">          | Arduino Pinout   | Arduino 101-Compatible and compatible with most Arduino Shields. |
-| <img src="../img/icons/pins.png" height="20px" width="20px">             | Digital I/O Pins | 14 (PWM)                                                         |
-| <img src="../img/icons/pins.png" height="20px" width="20px">             | Analog I/O Pins  | 6 (10 Bits of resolution)                                        |
-| <img src="../img/icons/temperature.png" height="20px" width="20px">      | Sensors          | 6-axis combo sensor with accelerometer and gyroscope             |
+| <img src="../img/icons/arduino.png" height="20px" width="20px">          | Arduino Pinout   | Easy to use with a custom 2 rows pinout<br>Expandable with I/O shield to have the standard Arduino Pinour R3 |
+| <img src="../img/icons/pins.png" height="20px" width="20px">             | Digital I/O Pins | up to 23x digital input/output (7 PWM)                           |
+| <img src="../img/icons/pins.png" height="20px" width="20px">             | Analog I/O Pins  | 12 (10 Bits of resolution)                                       |
 
 
-<span class="label label-warning">Heads up!</span> The communications between the Braswell SOC and the CurieTM SOC come through a USB interface, exactly like Arduino 101 / Genuino 101 boards connect to external PCs.  
-  
+<span class="label label-warning">Heads up!</span> The communications between the Braswell SOC and the Microchip ATmega32U4 module comes through a USB interface, exactly like an Arduino&trade; Leonardo board connects to an external PC.  

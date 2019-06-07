@@ -2,7 +2,7 @@
 
 Serial Libraries Communication Samples for [UDOO Board](https://www.udoo.org)
 
-These example’s scripts are meant to demonstrate how to implement a uni\bidirectional communication between an Arduino sketch (running on the Arduino&trade; 101 Intel&reg; Curie&trade; embedded) and a binary application on the Braswell processor running Linux.
+These example’s scripts are meant to demonstrate how to implement a uni\bidirectional communication between an Arduino sketch (running on the Arduino&trade; Leonardo ATmega32U4 embedded) and a binary application on the Braswell processor running Linux.
 
 The Arduino sketch will remain the same no matter which programming language you’ll use to develop the binary on Linux.
 
@@ -17,9 +17,9 @@ Clone the repo in your system and switch to proper `udoo-x86` branch using these
     cd serial_libraries_examples
     git checkout udoo-x86
 
-<span class="label label-warning">Heads up!</span> Make sure the user has the proper permission to read and write from the Arduino&trade; 101 serial device (`/dev/ttyACM0` by default)
+<span class="label label-warning">Heads up!</span> Make sure the user has the proper permission to read and write from the Arduino&trade; Leonardo serial device (`/dev/ttyACM0` by default)
 
-Each program is meant to be executed while the matching Arduino Sketch is running on Arduino&trade; 101 Intel&reg; Curie&trade;.
+Each program is meant to be executed while the matching Arduino Sketch is running on Arduino&trade; Leonardo ATmega32U4.
 
 Program the Arduino&trade; embedded with the sketch named `arduino_serial_example.ino` before run these examples:
 

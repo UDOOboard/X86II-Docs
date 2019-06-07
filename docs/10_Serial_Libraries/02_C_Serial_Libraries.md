@@ -7,7 +7,7 @@ This file describes how to compile and run the C examples contained in this fold
 
     cd serial_libraries_examples/c/
 
-2 - Check if the Arduino 101 is assigned to the default port `/dev/ttyACM0`, otherwise modify this string in the .c sources with correct tty and save:
+2 - Check if the Arduino Leonardo is assigned to the default port `/dev/ttyACM0`, otherwise modify this string in the .c sources with correct tty and save:
 
     define("PORT", "/dev/ttyACM0");
 

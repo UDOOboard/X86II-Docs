@@ -15,7 +15,7 @@ To run these PHP examples, we will use the PHP interpreter and its embedded Web 
 
     cd serial_libraries_examples/php/
 
-4 - Check if the Arduino 101 is assigned to the default port `/dev/ttyACM0`, otherwise modify this string in the .php sources with correct tty and save:
+4 - Check if the Arduino Leonardo is assigned to the default port `/dev/ttyACM0`, otherwise modify this string in the .php sources with correct tty and save:
 
     define("PORT", "/dev/ttyACM0");
 

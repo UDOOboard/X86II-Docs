@@ -11,7 +11,7 @@ This file describes how to run the python examples contained in this folder.
 
     cd serial_libraries_examples/python/
 
-3 - Check if the Arduino 101 is assigned to the default port `/dev/ttyACM0`, otherwise modify this string in the .py sources with correct tty and save:
+3 - Check if the Arduino Leonardo is assigned to the default port `/dev/ttyACM0`, otherwise modify this string in the .py sources with correct tty and save:
 
     ser = serial.Serial('/dev/ttyACM0', 115200,timeout=1)
 
