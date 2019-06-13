@@ -18,6 +18,10 @@ This is the documentation for the second revision of the UDOO X86 - **UDOO X86 I
 If you have the first UDOO X86 revision in your hands, please consult the <a href="https://www.udoo.org/docs-x86"><b>UDOO X86 doc at this page</b></a>. Check how to <a href="../Hardware_Reference/Recognize_the_UDOO_X86_revision.html"><b>recognize the UDOO X86 revision</b></a>.  
 </p>
 
+<p style="background-color: rgba(255, 170, 50, 0.3);padding: 20px;border-left: 5px solid orange; border-radius: 4px; color:rgb(45, 45, 45);">
+If you have any trouble uploading the Arduino sketch running Linux, check the <a href="../Arduino_Leonardo-compatible(ATmega32U4)/Getting_Started_with_Arduino_Leonardo.html">Getting Started with Arduino Leonardo</a> section.
+</p>
+
 <hr/>
 
 <span class="label label-warning">Heads up!</span> In order to prevent damages to your board, remember to:
