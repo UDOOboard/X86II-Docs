@@ -12,9 +12,9 @@ It is possible to access to InsydeH2O® Setup Utility by pressing the escape key
   Warning: Please do NOT "play" with the SCU menu choices if you don't know what you are doing. For example, if you disable USB ports or Video Outputs you will not be able to interact with the SCU to revert this condition. If you stumbling upon this case take a look at the **Restore Factory configuration** section below.
 </div>
 
-## UDOO X86 Hardware and UEFI BIOS User Manual
+## UDOO X86 II Hardware and UEFI BIOS User Manual
 
-For a complete explanation of the System Configuration Utility menu items you can download the exhaustive [UDOO X86 Hardware and UEFI BIOS User Manual](http://download.udoo.org/files/UDOO_X86/Doc/UDOO_X86_MANUAL.pdf)
+For a complete explanation of the System Configuration Utility menu items you can download the exhaustive [UDOO X86 II Hardware and UEFI BIOS User Manual](http://download.udoo.org/files/UDOO_X86/Doc/UDOO_X86II_MANUAL_Rel.2.0.pdf)
 
 ## Setup Utility Menu
 
