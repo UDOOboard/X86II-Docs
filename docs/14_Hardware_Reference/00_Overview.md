@@ -6,7 +6,7 @@
 
 <br/>
 
-<a href="../img/x86_blockdiagram.png" target="\_blank"><img style="width:700px; " src="../img/x86_blockdiagram.png"></a>
+<a href="../img/x86ii_blockdiagram.png" target="\_blank"><img style="width:700px; " src="../img/x86ii_blockdiagram.png"></a>
 
 <br/>
 
