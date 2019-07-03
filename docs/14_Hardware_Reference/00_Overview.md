@@ -1,6 +1,6 @@
-<img src="../img/x86_top.png" alt="UDOO versions" class="img-responsive" >
+<img src="../img/x86ii_top.png" alt="UDOO versions" class="img-responsive" >
 
-<img src="../img/x86_bottom.png" alt="UDOO versions" class="img-responsive" >
+<img src="../img/x86ii_bottom.png" alt="UDOO versions" class="img-responsive" >
 
 ## BLOCK DIAGRAM
 
