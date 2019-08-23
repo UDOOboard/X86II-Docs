@@ -12,7 +12,7 @@ Take a look at this exhaustive guide [How to use 1.8V serial on UDOO X86 with 3.
 ## Pinmuxing
 The image below shows the list of all possible functions assigned to each Pin.
 
-<a href="../img/x86_pinout_braswell.png" target="_blank"><img style="width:600px; " src="../img/x86_pinout_braswell.png"></a>
+<a href="../img/x86_pinout_braswell_post415.png" target="_blank"><img style="width:600px; " src="../img/x86_pinout_braswell_post415.png"></a>
 
 ## UART 1 and UART 2
 
@@ -109,7 +109,7 @@ For example, if you connect to the board a new peripheral that supports reset st
 
 | Pin | Function  | Processor PAD |
 |-----|-----------|---------------|
-| 30  | PLTRST    |  PMU_PLTRST_N |
+| 31  | PLTRST    |  PMU_PLTRST_N |
 
 This Pin can't work as GPIO.  
 
