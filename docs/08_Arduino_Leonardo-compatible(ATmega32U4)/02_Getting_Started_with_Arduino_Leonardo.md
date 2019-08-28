@@ -27,7 +27,7 @@ where `<yourUserName>` is your Linux user name. **You will need to log out and l
 
 If you have issues when trying to upload a sketch on the Arduino Leonardo-compatible ATmega32U4 of UDOO BOLT you probably have a conflict with the program **ModemManager** (installed by default on many Linux distros like Ubuntu).
 
-Modem Manager tries to open any serial port (ttyACM0 of the Arduino Leonardo included) checking if it's a modem and this usually creates conflicts with the upload mechanism.
+Modem Manager tries to open any serial port (`ttyACM0` of the Arduino Leonardo included) checking if it's a modem and this usually creates conflicts with the upload mechanism.
 
 If you have installed *ModemManager* on your Linux you can try to disable or uninstall it (https://askubuntu.com/questions/216114/how-can-i-remove-modem-manager-from-boot)
 
@@ -39,3 +39,5 @@ Since you probably don't have a modem on your UDOO BOLT you can safely uninstall
 After this procedure, you should be able to proceed normally and upload the sketch to your board or use the Serial Monitor.
 
 The solution of this issue was found in [this thread](https://forum.arduino.cc/index.php?topic=129647.msg2378141#msg2378141) of the Arduino Forum.
+
+<span class="label label-warning">Heads up!</span> Keep in mind that once the conflict has been created, the ATmega32U4 microcontroller can not get out of this state of block and the issue in uploading the sketch will be present even changing the operating system
