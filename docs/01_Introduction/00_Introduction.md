@@ -19,7 +19,7 @@ If you have the first UDOO X86 revision in your hands, please consult the <a hre
 </p>
 
 <p style="background-color: rgba(255, 170, 50, 0.3);padding: 20px;border-left: 5px solid orange; border-radius: 4px; color:rgb(45, 45, 45);">
-If you have any trouble uploading the Arduino sketch running Linux, check the <a href="../Arduino_Leonardo-compatible(ATmega32U4)/Getting_Started_with_Arduino_Leonardo.html">Getting Started with Arduino Leonardo</a> section.
+If you have any <b>trouble</b> uploading the <b>Arduino sketch</b> running Linux, check the <a href="../Arduino_Leonardo-compatible(ATmega32U4)/Getting_Started_with_Arduino_Leonardo.html"><b>Getting Started with Arduino Leonardo</b></a> section.
 </p>
 
 <hr/>
