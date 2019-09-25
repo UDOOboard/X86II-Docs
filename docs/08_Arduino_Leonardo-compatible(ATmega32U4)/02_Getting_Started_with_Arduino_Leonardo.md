@@ -1,4 +1,4 @@
-To start programming the Arduino&reg; Leonardo-compatible embedded microcontroller of the UDOO BOLT you need the `Arduino IDE` or the `Arduino Web IDE`.
+To start programming the Arduino&reg; Leonardo-compatible embedded microcontroller of the UDOO X86II you need the `Arduino IDE` or the `Arduino Web IDE`.
 
 You can refer to the [Arduino Leonardo](https://www.arduino.cc/en/Main/Arduino_BoardLeonardo) page and the [Getting Started with the Arduino Leonardo](https://www.arduino.cc/en/Guide/ArduinoLeonardoMicro) page on Arduino&reg;'s website.  
 
