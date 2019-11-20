@@ -53,4 +53,4 @@ You can use this [MiniDP++ to HDMI](http://shop.udoo.org/cable-minidp-to-hdmi.ht
 
 ### UDOO X86 II Hardware and UEFI BIOS User Manual
 
-For a complete explanation of the UDOO X86 hardware you can download the [UDOO X86 II Hardware and UEFI User Manual](http://download.udoo.org/files/UDOO_X86/Doc/UDOO_X86II_MANUAL_Rel.2.0.pdf)
+For a complete explanation of the UDOO X86 hardware you can download the [UDOO X86 II Hardware and UEFI User Manual](https://udoo.org/download/files/UDOO_X86/Doc/UDOO_X86II_MANUAL_Rel.2.0.pdf)
